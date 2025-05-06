@@ -10,7 +10,7 @@ function WorkExperience() {
 
     return (
         <section className="Work-experience">
-            <button onClick={handleClick}>Volver</button>
+        
          <article className='Work-experience-article'>
             <h2>Carta de experiencia laboral</h2>
             <figure>

@@ -59,11 +59,10 @@ function Education() {
 
   return (
     <section className="Education">
-      <button onClick={handleClick}>vamos</button>
       <article className="Education__container">
         <div className="Education__container-carrer">
           <figure>
-            <img src="../../../public/images/graduacion.png" alt="" />
+            <img src="../../../images/graduacion.png" alt="" />
           </figure>
           <div className="Carrer__None">
             <h2>Diploma de la carrera</h2>
