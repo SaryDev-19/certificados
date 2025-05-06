@@ -1,0 +1,35 @@
+.Work-experience {
+    top: 0;
+}
+.Work-experience-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: .7em;
+    text-align: center;
+}
+
+.Work-experience-article > figure {
+   border: 1px solid rgb(207, 207, 207);
+   width: 100%;
+   max-width: 35em;
+   background-color: white;
+}
+
+@media (min-width: 700px) {
+    .Work-experience-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        margin-top: 0em;
+        padding: .7em;
+        text-align: center;
+    }
+    .Work-experience-article >h2 {
+       display: block;
+    }
+}

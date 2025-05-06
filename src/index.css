@@ -1,0 +1,23 @@
+
+:root {
+  --color1: rgb(202, 250, 248);
+  --color2: rgb(209, 14, 186);
+  --color3: rgba(14, 6, 54, 0.642);
+  --color4: rgb(10, 211, 37);
+  --color5: white;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: var(--color1);
+}
+
+img{
+  object-fit: contain;
+  width: 100%;
+}
