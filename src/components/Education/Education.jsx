@@ -75,42 +75,42 @@ function Education() {
         <article className="Education__container-diplomas">
           <div>
             <div className="Diplo_fondo">
-              <h1>English leven 1</h1>
+              <h1>English level 1</h1>
               <button onClick={() => handleDiplomaClick(1)}>Ver</button>
             </div>
           </div>
 
           <div>
             <div className="Diplo_fondo">
-              <h1>English leven 2</h1>
+              <h1>English level 2</h1>
               <button onClick={() => handleDiplomaClick(2)}>Ver</button>
             </div>
           </div>
 
           <div>
             <div className="Diplo_fondo">
-              <h1>English leven 3</h1>
+              <h1>English level 3</h1>
               <button onClick={() => handleDiplomaClick(3)}>Ver</button>
             </div>
           </div>
 
           <div>
             <div className="Diplo_fondo">
-              <h1>English leven 4</h1>
+              <h1>English level 4</h1>
               <button onClick={() => handleDiplomaClick(4)}>Ver</button>
             </div>
           </div>
 
           <div>
             <div className="Diplo_fondo">
-              <h1>English leven 5</h1>
+              <h1>English level 5</h1>
               <button onClick={() => handleDiplomaClick(5)}>Ver</button>
             </div>
           </div>
 
           <div>
             <div className="Diplo_fondo">
-              <h1>English leven 7</h1>
+              <h1>English level 7</h1>
               <button onClick={() => handleDiplomaClick(6)}>Ver</button>
             </div>
           </div>
