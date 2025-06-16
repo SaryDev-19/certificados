@@ -110,8 +110,15 @@ function Education() {
 
           <div>
             <div className="Diplo_fondo">
-              <h1>English level 7</h1>
+              <h1>English level 6</h1>
               <button onClick={() => handleDiplomaClick(6)}>Ver</button>
+            </div>
+          </div>
+
+          <div>
+            <div className="Diplo_fondo">
+              <h1>English level 7</h1>
+              <button onClick={() => handleDiplomaClick(7)}>Ver</button>
             </div>
           </div>
         </article>
