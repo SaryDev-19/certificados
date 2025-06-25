@@ -12,6 +12,11 @@ function Education() {
 
   const handleDiplomaClick = (value) => {
     switch (value) {
+      case 0:
+        const diplomCarrer ="../../../images/diploma0.jpg"
+        setImage(diplomCarrer);
+        setOpen(true);
+       break;
       case 1:
         const diploma1 = "../../../images/diploma1.jpg";
         setImage(diploma1);
@@ -43,10 +48,16 @@ function Education() {
         break;
 
       case 6:
+        const diploma6 = "../../../images/diploma6.jpg";
+        setImage(diploma6);
+        setOpen(true);
+        break;
+
+      case 7:
         const diploma7 = "../../../images/diploma7.jpg";
         setImage(diploma7);
         setOpen(true);
-        break;
+        break;  
 
       default:
         break;
@@ -64,9 +75,9 @@ function Education() {
           <figure>
             <img src="../../../images/graduacion.png" alt="" />
           </figure>
-          <div className="Carrer__None">
+          <div className="Diplo_fondo">
             <h2>Diploma de la carrera</h2>
-            <p>Aun no disponible</p>
+            <button onClick={() => handleDiplomaClick(0)}>Ver</button>
           </div>
         </div>
 
