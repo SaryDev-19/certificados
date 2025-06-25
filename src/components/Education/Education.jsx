@@ -6,6 +6,7 @@ function Education() {
   const navigate = useNavigate();
   const [Open, setOpen] = useState(false);
   const [Image, setImage] = useState();
+  const [Openstyle, setOpenstyle] =useState(false);
   const handleClick = () => {
     navigate("/experiences");
   };
@@ -14,47 +15,55 @@ function Education() {
     switch (value) {
       case 0:
         const diplomCarrer ="../../../images/diploma0.jpg"
+        setOpenstyle(true);
         setImage(diplomCarrer);
         setOpen(true);
        break;
       case 1:
         const diploma1 = "../../../images/diploma1.jpg";
+        setOpenstyle(false);
         setImage(diploma1);
         setOpen(true);
         break;
 
       case 2:
         const diploma2 = "../../../images/diploma2.jpg";
+        setOpenstyle(false);
         setImage(diploma2);
         setOpen(true);
         break;
 
       case 3:
         const diploma3 = "../../../images/diploma3.jpg";
+        setOpenstyle(false);
         setImage(diploma3);
         setOpen(true);
         break;
 
       case 4:
         const diploma4 = "../../../images/diploma4.jpg";
+        setOpenstyle(false);
         setImage(diploma4);
         setOpen(true);
         break;
 
       case 5:
         const diploma5 = "../../../images/diploma5.jpg";
+        setOpenstyle(false);
         setImage(diploma5);
         setOpen(true);
         break;
 
       case 6:
         const diploma6 = "../../../images/diploma6.jpg";
+        setOpenstyle(false);
         setImage(diploma6);
         setOpen(true);
         break;
 
       case 7:
         const diploma7 = "../../../images/diploma7.jpg";
+        setOpenstyle(false);
         setImage(diploma7);
         setOpen(true);
         break;  
@@ -139,7 +148,7 @@ function Education() {
         <div onClick={handleClose}>
           <i class="bx bx-x"></i>
         </div>
-        <img src={Image} alt="" />
+        <img className={Openstyle ? "Open_carrer" :''} src={Image} alt="" />
       </article>
     </section>
   );

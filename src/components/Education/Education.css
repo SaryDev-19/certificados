@@ -147,6 +147,10 @@
     display: none;
  }
 
+.Open_carrer {
+   padding: .5em;
+   margin-top: 0;
+}
 
  @media (min-width: 700px) {
     .Education__image > img {
@@ -164,5 +168,9 @@
       justify-content: center;
       overflow-y: scroll;
    }
-  
+  .Open_carrer {
+   padding: 2em;
+   margin-top: 35em;
+}
+
  }
